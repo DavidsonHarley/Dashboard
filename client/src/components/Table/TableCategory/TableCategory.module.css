@@ -1,0 +1,23 @@
+.containerCategory{
+    margin-top: 87px;
+    margin-right: 70px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .containerCategory{
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}  
+
+@media screen and (max-width: 1700px) {
+    .containerCategory{
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}  

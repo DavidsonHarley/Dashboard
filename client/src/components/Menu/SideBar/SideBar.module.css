@@ -1,0 +1,71 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+.containerLink{
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+    align-items: center;
+    height: 1280px;
+    background: #212428; 
+}
+
+.Link{
+    text-decoration: none;
+    color: #CEDFF6
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    color: #FF014F;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 49px;
+}
+.button{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #212428;
+    border: 0.5px solid #929191;
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    margin-top: 10px;
+}
+.button:hover{
+    box-shadow: 0px 0px 10px 0px #f3f2f2e3; 
+}
+
+.main_menu{
+    background:#212121;
+    position:absolute;
+    top:0;
+    bottom:0;
+    height:150%;
+    left:0;
+    width:190px;
+    overflow:hidden;
+    transition:width .05s linear;
+    z-index:1;
+    box-shadow: 13px 7px 13px rgba(0, 0, 0, 0.17);
+}
+
+.main_menu li {
+    position:relative;
+    display:block;
+    width:250px;
+}
+
+
+@media screen and (max-width: 1700px) {
+    .main_menu{
+        height:150%;
+    }
+}  

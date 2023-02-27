@@ -1,0 +1,136 @@
+.containerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formButtonUpdate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.button{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #212428;
+    border: 0.5px solid #929191;
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    margin: 20px;
+}
+.button:hover{
+    box-shadow: 0px 0px 10px 0px #f3f2f2e3;
+}
+.buttonUpdate{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #212428;
+    border: 0.5px solid #929191;
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    margin-right: 10px;
+}
+.buttonUpdate:hover{
+    box-shadow: 0px 0px 10px 0px #f3f2f2e3;
+}
+
+.buttonDelete{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: 0.5px solid #929191;
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    background: #ff010ee3;
+    border-radius: 10px;
+}
+
+.buttonDelete:hover{
+    box-shadow: 0px 0px 10px 0px #f3f2f2e3;
+}
+
+.containerForm{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 30px;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 1px;
+    width: 300px;
+    border: 0.5px solid #929191;
+    box-shadow: 2px 5px 10px 0px  #000000; 
+    border-radius: 10px;
+}
+
+.input{
+    text-align: center;
+    margin: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #C4CFDE;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    background: #343842;
+    border-radius: 30px;
+}
+
+.close{
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background: #212428;
+    border: 0.5px solid #929191;
+}
+
+.close:hover{
+    box-shadow: 0px 0px 10px 0px #f3f2f2e3; 
+}
+
+.buttonReboot{
+    width: 200px;
+    height: 45px;
+    padding: 6px;
+    border: 0.5px solid #929191;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #212428;
+}
+
+.buttonReboot:hover{
+    box-shadow: 0px 0px 10px 0px #f3f2f2e3;
+}
+
+
+.detailContainer{
+    display: flex;
+    flex-direction: column-reverse;
+}
